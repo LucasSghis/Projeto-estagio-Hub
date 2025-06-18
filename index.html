@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Admin</title>
+  <!-- Link para o arquivo css -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Container principal da página -->
+  <div class="container">
+
+    <!-- Mensagem de boas-vindas dinâmica -->
+    <h1 id="mensagem">Bem-vindo, admin admin!</h1>
+
+    <!-- Wrapper contendo ambas as seções: Automação e Relatórios -->
+    <div class="sections-wrapper">
+
+      <!-- Seção AUTOMAÇÃO -->
+      <section class="section" id="automacao-section">
+        <!-- Título da seção -->
+        <p>Automação</p>
+        <!-- Grid de módulos de automação -->
+        <div class="modules" id="automacao">
+          <!-- Card de módulo: Simples Nacional -->
+          <div class="submod" data-modulo="Simples Nacional">
+            <!-- Ícone de ajuda -->
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <!-- Ícone principal do módulo -->
+            <img src="imagens/Simples.png" alt="Simples Nacional" />
+            <!-- Nome do módulo -->
+            <span>Simples<br/>Nacional</span>
+          </div>
+          <!-- Card de módulo: HubAlertas+ -->
+          <div class="submod" data-modulo="HubAlertas+">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Alertas.png" alt="HubAlertas+" />
+            <span>HubAlertas+</span>
+          </div>
+          <!-- Card de módulo: DCTF Automatizada -->
+          <div class="submod" data-modulo="DCTF Automatizada">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/DCTF.png" alt="DCTF Automatizada" />
+            <span>DCTF<br/>Automatizada</span>
+          </div>
+          <!-- Card de módulo: DCTF Web -->
+          <div class="submod" data-modulo="DCTF Web">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/DCTFWeb.png" alt="DCTF Web" />
+            <span>DCTF Web</span>
+          </div>
+          <!-- Card de módulo: Cálculo de Impostos Retidos -->
+          <div class="submod" data-modulo="Cálculo de Impostos Retidos">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/CalcIR.png" alt="Cálculo de Impostos Retidos" />
+            <span>Cálculo de<br/>Impostos<br/>Retidos</span>
+          </div>
+          <!-- Card de módulo: Central CND -->
+          <div class="submod" data-modulo="Central CND">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/CentralCND.png" alt="Central CND" />
+            <span>Central CND</span>
+          </div>
+          <!-- Card de módulo: Mensagens do Governo -->
+          <div class="submod" data-modulo="Mensagens do Governo">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/MensagensGov.png" alt="Mensagens do Governo" />
+            <span>Mensagens do<br/>Governo</span>
+          </div>
+          <!-- Card de módulo: Consulta Simei -->
+          <div class="submod" data-modulo="Consulta Simei">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Consultas.png" alt="Consulta Simei" />
+            <span>Consulta Simei</span>
+          </div>
+          <!-- Card de módulo: Impostos Pagos -->
+          <div class="submod" data-modulo="Impostos Pagos">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Consultas.png" alt="Impostos Pagos" />
+            <span>Impostos Pagos</span>
+          </div>
+          <!-- Card de módulo: Consulta FAP -->
+          <div class="submod" data-modulo="Consulta FAP">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Consultas.png" alt="Consulta FAP" />
+            <span>Consulta FAP</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção RELATÓRIOS -->
+      <section class="section" id="relatorios-section">
+        <p>Relatórios</p>
+        <div class="modules" id="relatorios">
+          <!-- Card principal ocupa 2 colunas -->
+          <div class="baseperso-card" data-modulo="Base Personalizada BI">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Basepersonalizada.png" alt="Base Personalizada BI" />
+            <span>Base Personalizada BI</span>
+          </div>
+          <!-- Card: BI da Folha -->
+          <div class="bifolha-card" data-modulo="BI da Folha">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/folha.png" alt="BI da Folha" />
+            <span>BI da Folha</span>
+          </div>
+          <!-- Card: HubConcilia -->
+          <div class="concilia-card" data-modulo="HubConcilia">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Concilia.png" alt="HubConcilia" />
+            <span>HubConcilia</span>
+          </div>
+          <!-- Card: Lalur -->
+          <div class="lalur-card" data-modulo="Lalur">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <img src="imagens/Lalur.png" alt="Lalur" />
+            <span>Lalur</span>
+          </div>
+        </div>
+
+        <!-- Card de relatório bloqueado -->
+        <div id="report-container">
+          <div class="report" data-modulo="Report Contábil">
+            <img src="imagens/Ajuda.png" class="ajuda" alt="Ajuda" />
+            <span class="texto">Módulo liberado apenas para atendimento</span>
+            <span class="title">Report Contábil</span>
+            <div class="buttons">
+              <button>Consolidação</button>
+              <button>Report Somado</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div> <!-- /sections-wrapper -->
+  </div> <!-- /container -->
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
