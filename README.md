@@ -1,6 +1,6 @@
-# Dashboard Admin HubCount
+# Estágio Hub - HubCount BI
 
-Este projeto foi desenvolvido como parte do processo seletivo para a vaga de estágio na HubCount. Consiste em um **Dashboard Admin** construído com **HTML**, **CSS** e **JavaScript puro**, sem frameworks externos, que demonstra habilidades de front-end, manipulação de DOM e lógica básica.
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de estágio na HubCount. Consiste em um **Dashboard Admin** construído com **HTML**, **CSS** e **JavaScript**, por enquanto sem frameworks externos, que demonstra habilidades de front-end, manipulação de DOM e lógica básica, próximo passo é implementar React.js.
 
 ## 📋 Funcionalidades
 
