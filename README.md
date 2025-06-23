@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido como parte do processo seletivo para a vaga de estágio na HubCount. Consiste em um **Dashboard Admin** construído com **HTML**, **CSS** e **JavaScript**, por enquanto sem frameworks externos, que demonstra habilidades de front-end, manipulação de DOM e lógica básica, próximo passo é implementar React.js.
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
 1. **Boas-vindas Personalizada**
    - Solicita o nome do usuário via `prompt()` e atualiza a mensagem de boas-vindas.
@@ -25,7 +25,7 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de est
 6. **Comparativo JavaScript vs. TypeScript**
    - Arquivo `comparativo.txt` explicando as principais diferenças entre as linguagens e justificando o uso de TypeScript em projetos maiores.
 
-## 🗂 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
 ├── index.html # Marcações HTML da interface
 ├── style.css # Estilos CSS organizados e comentados
@@ -35,13 +35,13 @@ Este projeto foi desenvolvido como parte do processo seletivo para a vaga de est
 
 
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **HTML5**
 - **CSS (Grid & Flexbox)**
 - **JavaScript **
 
-🎯 Objetivo do Projeto
+ Objetivo do Projeto
 Demonstrar a aplicação de conceitos fundamentais de JavaScript e front-end:
 
 Manipulação de DOM
